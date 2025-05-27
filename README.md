@@ -16,10 +16,6 @@ Modular SystemVerilog implementation of a low-power, streaming matrix processor 
 - Tile-level data reuse and reduced DRAM bandwidth
 - Double-buffering for compute/load overlap
 
-# Directory Structure
-- `rtl/` - all SystemVerilog RTL modules
-- `tb/`  - simulation testbench
-- `docs/` - architecture diagrams and notes
 
 # Simulation
 Open Vivado, add all RTL/testbench files, and set `transformer_tb` as top module.
